@@ -1,0 +1,17 @@
+.cover__sabtitle {
+  max-width: 360px;
+  height: 66px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin: o auto;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__sabtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+

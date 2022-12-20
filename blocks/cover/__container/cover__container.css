@@ -1,0 +1,32 @@
+.cover__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1184px;
+  align-self: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 247px 0 247px 0;
+}
+
+.cover__container:hover {
+  background: #2a2c2f;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__container {
+    padding: 174px 0 174px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__container {
+    padding: 110px 0 82px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__container {
+    padding: 24px 0 0px 0;
+  }
+}
